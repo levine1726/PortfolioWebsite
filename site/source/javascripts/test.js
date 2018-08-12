@@ -1,2 +1,0 @@
-M.AutoInit()
-alert('ran');
