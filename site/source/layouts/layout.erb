@@ -9,13 +9,12 @@
     <title><%= current_page.data.title || "Middleman" %></title>
     <%= stylesheet_link_tag "site" %>
     <%= javascript_include_tag "site" %>
+    
   </head>
-  <body class="black">
+  <body class="">
 
     <%= partial "navbar"%>
-    <div class="container">
-      <%= yield %>
-    </div>
+    <%= yield %>
     <%= partial "footer"%>
   </body>
 </html>
