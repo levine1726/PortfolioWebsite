@@ -11,10 +11,12 @@
     <%= javascript_include_tag "site" %>
     
   </head>
-  <body class="">
+  <body class="black">
 
     <%= partial "navbar"%>
-    <%= yield %>
+    <main>
+      <%= yield %>  
+    </main>
     <%= partial "footer"%>
   </body>
 </html>

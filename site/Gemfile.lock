@@ -109,7 +109,7 @@ PLATFORMS
 DEPENDENCIES
   middleman (~> 4.2.1)
   middleman-autoprefixer (~> 2.7)
-  middleman-sprockets
+  middleman-sprockets (~> 4.1.0)
   sass (~> 3.4.25)
   sprockets
   tzinfo-data
