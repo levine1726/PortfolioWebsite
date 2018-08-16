@@ -7,3 +7,4 @@ gem "middleman-sprockets", '~> 4.1.0'
 gem 'sprockets'
 gem 'wdm', '~> 0.1', platforms: [:mswin, :mingw]
 gem 'sass', '~> 3.4.25'
+gem 'betterlorem'
