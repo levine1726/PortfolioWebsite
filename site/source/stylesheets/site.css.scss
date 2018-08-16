@@ -1,16 +1,43 @@
 @import "materialize-css/sass/materialize";
 @import "https://fonts.googleapis.com/icon?family=Material+Icons";
 
-/* Materialize's css rules for a stcky footer */
+/* Materialize's css rules for a sticky footer */
 body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
 }
 
+
 main {
   flex: 1 0 auto;
 }
+
+main * {
+  color: white; 
+}
+
+
+/* Landing Page Styling */
+main #landing-page h1 {
+  margin-bottom: 0px;
+  font-size: 2em;
+}
+
+main #landing-page .row {
+  margin-bottom: 0px;
+}
+
+/*
+@media only screen and (min-height: 2040px) {
+  
+}
+*/
+
+.carousel .carousel-item {
+    width: 500px !important;
+}
+
 
 /* footer styling */
 footer p {
