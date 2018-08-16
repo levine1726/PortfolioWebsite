@@ -17,7 +17,6 @@ main * {
   color: white; 
 }
 
-
 /* Landing Page Styling */
 main #landing-page h1 {
   margin-bottom: 0px;
@@ -47,11 +46,18 @@ main #landing-page .row {
   margin-bottom: 10px;
 }
 
+
+
 /* footer styling */
 footer p {
   font-size: 0.75em;
   padding: 0px;
   margin: 0px;
+}
+
+.flex-col-wrap {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 

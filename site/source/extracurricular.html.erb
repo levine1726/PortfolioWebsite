@@ -1,0 +1,50 @@
+---
+title: Extracurriculars and Leadership - David Levine
+---
+
+<div id="extracurriculars" class="container">
+
+	<div class="row">
+		<h3>Extracirricular Involvements</h3>
+	</div>
+
+	<% 5.times do |i| %>
+		<% if i % 2 == 0 %>
+		<div class="row red lighten-1">
+		<% end %>
+		<div class="col m6 s12 ">
+			<div class="involvement-box">
+				<h5>Title <%= i %></h5>
+				<h6>Years Involved: 2</h6>
+				<div class="divider"></div>
+				<p>Description: <%= BetterLorem.p 2, true %></p>
+			</div>
+		</div>
+		<% if i % 2 != 0 || i == 4 %>
+		</div>
+		<% end %>
+	<% end %>
+
+	<div class="row">
+		<h3>Leadership</h3>
+	</div>
+
+	<% 2.times do |i| %>
+		<% if i % 2 == 0 %>
+		<div class="row red lighten-1">
+		<% end %>
+		<div class="col m6 s12 ">
+			<div class="involvement-box">
+				<h5>Title <%= i %></h5>
+				<h6>Years Involved: 2</h6>
+				<div class="divider"></div>
+				<p>Description: <%= BetterLorem.p 2, true %></p>
+			</div>
+		</div>
+		<% if i % 2 != 0 %>
+		</div>
+		<% end %>
+	<% end %>
+	
+
+</div>
