@@ -46,6 +46,32 @@ main #landing-page .row {
   margin-bottom: 10px;
 }
 
+/* About Me Stylings */
+#about-me .row {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+#about-me .row {
+  min-height: 100px;
+}
+
+#about-me .col ul li {
+  padding-left: 20px;
+  list-style-type: disc;
+  list-style-position: inside;  
+  color: white;
+
+  /* Nested ul */
+  ul {
+    padding-left: 10px;
+    li {
+      list-style-type: circle;
+      list-style-position: inside;  
+      color: white;
+    }
+  }
+}
 
 
 /* footer styling */
