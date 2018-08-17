@@ -1,0 +1,22 @@
+<!-- Modal Structure -->
+  <div id="contact-form" class="modal">
+    <div class="modal-content">
+  	<h6>Contact Me</h6>
+  	<p>
+      	(if you would rather send me an email through your default mail application, click 
+      	<%= link_to 'here', 'mailto:levine.1726@osu.edu' %>)
+  	</p>
+		<div class="divider"></div>
+	<form action="https://jumprock.co/mail/levineportfolio" method="post">
+		<input type="text" name="trapit" value="" style="display:none" />
+		<input type="text" name="name" placeholder="Your name...." />
+		<input type="text" name="email" placeholder="Email Address..." />
+		<input name="subject" placeholder="Your subject...">
+		<input type="text" name="Message" placeholder="Message..." />
+	</form>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat red white-text">Cancel</a>
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat green white-text">Submit</a>
+    </div>
+  </div>
