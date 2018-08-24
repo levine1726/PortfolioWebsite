@@ -1,0 +1,45 @@
+<!-- Modal Structure -->
+  <div id="contact-form" class="modal">
+    <div class="modal-content">
+  	<h6>Contact Me</h6>
+  	<p>
+      	(if you would rather send me an email through your default mail application, click 
+      	<%= link_to 'here', 'mailto:levine.1726@osu.edu' %>)
+  	</p>
+	<div class="divider"></div>
+	<form id="email-form" action="https://jumprock.co/mail/levineportfolio" method="post">
+		<input  type="text" name="trapit" value="" style="display:none" />
+		<div class="row">
+	        <div class="input-field col s12">
+				<label for="name">Name:</label>
+				<input id="name" type="text" name="name">
+	        </div>
+      	</div>
+      	<div class="row">
+	        <div class="input-field col s12">
+				<label for="email">Email:</label>
+	          	<input id="email" type="email" name="email">
+	        </div>
+      	</div>
+      	<div class="row">
+	        <div class="input-field col s12">
+				<label for="subject">Subject:</label>
+	          	<input id="subject" type="text" name="subject">
+	        </div>
+      	</div>
+      	<div class="row">
+	        <div class="input-field col s12">
+				<label for="message">Message:</label>
+	          	<textarea id="message" type="text" name="message" class="materialize-textarea"></textarea>
+	        </div>
+      	</div>
+		
+	</form>
+    </div>
+    <div class="modal-footer">
+      <p class="left">Powered by <%= link_to 'jumprock', 'https://jumprock.co/' %></p>
+      <a id="cancel" class="modal-close waves-effect waves-green btn-flat red white-text">Cancel</a>
+      <a id="submit" class="waves-effect waves-green btn-flat green white-text">Submit</a>
+
+    </div>
+  </div>
