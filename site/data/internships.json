@@ -1,0 +1,21 @@
+{
+	"Internships": [
+		{
+			"Title": "Stores Infrastructure Intern",
+			"Business": "Lbrands - Mast Global Technology",
+			"Date": "May 2018 - August 2018",
+			"Description": "I did work!",
+			"LanguagesUtilized": "HTML/CSS, JavaScript, C#",
+			"TechnologiesUtilized": "jQuery, ASP.NET MVC 4.0, Postman"
+		},
+		{
+			"Title": "Lasers and Robotics Laboratory Intern",
+			"Business": "University of Dayton Research Institute",
+			"Date": "May 2018 - August 2018",
+			"Description": "I did work!",
+			"LanguagesUtilized": "HTML/CSS, JavaScript, C#",
+			"TechnologiesUtilized": "jQuery, ASP.NET MVC 4.0, Postman"
+		}
+	]
+
+}
