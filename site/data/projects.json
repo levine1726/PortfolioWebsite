@@ -1,3 +1,25 @@
 {
+	"Projects": [
+		{
+			"Title": "VR Game Development",
+			"Date": "May 2017 - August 2017",
+			"Description": "VR is cool!",
+			"LanguagesUtilized": "HTML/CSS, JavaScript, C#",
+			"TechnologiesUtilized": "jQuery, ASP.NET MVC 4.0, Postman",
+			"Links": {
+				"Development Blog": "https://u.osu.edu/levinegamedevelopment/"
+			}
+		},
+		{
+			"Title": "Portfolio Website",
+			"Date": "May 2018 - August 2018",
+			"Description": "This is what you're looking at!",
+			"LanguagesUtilized": "HTML/CSS, JavaScript, C#",
+			"TechnologiesUtilized": "jQuery, ASP.NET MVC 4.0, Postman",
+			"Links": {
+				"Github": "https://github.com/levine1726/PortfolioWebsite"
+			}
+		}
+	]
 
 }
