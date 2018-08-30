@@ -4,17 +4,25 @@
 			"Title": "Stores Infrastructure Intern",
 			"Business": "Lbrands - Mast Global Technology",
 			"Date": "May 2018 - August 2018",
-			"Description": "I did work!",
+			"Description": "While employed as an intern at Lbrands within Mast Global Technology, I was tasked with creating a store search feature within an internal MVC web application entitled the Retail Operations Center (ROC). At a high level, the store search feature allows a user to search for any Lbrands owned store and quickly get live information about the devices there. Then, depending on the user's access level, they can quickly interact with a wide variety of devices in the store: for instance, users can ping, restart, and shutdown registers with the click of a button. This feature sought to provide multiple benefits. These include, but are not limited to, allowing users to quickly gauge the health of a store’, easily interact with devices without needing to establish remote connections, and help automate tasks that the Stores Infrastructure team would need to respond to. To implement this system, I built web APIs to query information across a variety of SQL databases, retrieve Windows services using WMI, start/stop/restart Windows services using WMI, and execute remote commands. These web APIs would be accessed by a client's web browser through jQuery AJAX HTTP requests, where the HTTP response would be used to dynamically update the user’s browser. Upon finishing development, the store search feature was moved into a production environment, with multiple teams using this tool to help with troubleshooting/development.",
 			"LanguagesUtilized": "HTML/CSS, JavaScript, C#",
 			"TechnologiesUtilized": "jQuery, ASP.NET MVC 4.0, Postman"
 		},
 		{
 			"Title": "Lasers and Robotics Laboratory Intern",
 			"Business": "University of Dayton Research Institute",
-			"Date": "May 2018 - August 2018",
-			"Description": "I did work!",
-			"LanguagesUtilized": "HTML/CSS, JavaScript, C#",
-			"TechnologiesUtilized": "jQuery, ASP.NET MVC 4.0, Postman"
+			"Date": "May 2017 - August 2017",
+			"Description": "I leveraged my Java skills to develop a wide variety of applications for a KUKA collaborative robotics system. The most notable of all these applications was a ‘hand guiding’ program which would allow users to physically manipulate the arm with their hands, and then record those movements for playback. The user then would have the opportunity to replay those movements while firing a laser attached to the robotic arm’s flange. This project was led independently, so it was my responsibility to communicate expectations with my supervisor and clarify what he wanted developed. Additionally, I identified additional hardware needed to run digital outputs to our laser system, and obtained the appropriate purchase orders from outside vendors. Beyond software development, I spent time playing around with Microsoft Access and working on a database to track experiments with another intern. I also had the experience to frequently practice my presentation skills by explaining my work to visitors touring our lab, even getting the opportunity to present to Boeing representatives and the University of Dayton president.",
+			"LanguagesUtilized": "Java",
+			"TechnologiesUtilized": "KUKA's robotics API, Sunrise Workbench (KUKA's development IDE)"
+		},
+		{
+			"Title": "Wright Scholar Summer Researcher",
+			"Business": "Air Force Research Laboratory (AFRL)",
+			"Date": "May 2015 - July 2015",
+			"Description": "As a Summer researcher at the Air Force Research Laboratory (AFRL), I had the opportunity to frequently run tests that would examine the air leakage of different combustion engines on a flow-bench. When I had free time, my supervisor advised me to learn VBA for Excel. Eventually, I was able to use my independent studies to create a User Defined Function (UDF) in Excel for a coworker; one which would calculate the effective area of orifices for a combustion engine. To get some of the appropriate equations for the effective area UDF, I utilized MATLAB to calculate the derivatives of some multi-variable functions.",
+			"LanguagesUtilized": "VBA, MATLAB",
+			"TechnologiesUtilized": "Excel, MATLAB IDE"
 		}
 	]
 
