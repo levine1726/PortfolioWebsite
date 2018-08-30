@@ -4,19 +4,20 @@
 		<h3>Extracirricular Involvements</h3>
 	</div>
 
-	<% 5.times do |i| %>
+	<% data.extracirricular.Extracirriculars.each_index do |i| %>
 		<% if i % 2 == 0 %>
 		<div class="row red lighten-1">
 		<% end %>
+		<% extracirricular = data.extracirricular.Extracirriculars[i] %>
 		<div class="col m6 s12 ">
 			<div class="involvement-box">
-				<h5>Title <%= i %></h5>
-				<h6>Years Involved: 2</h6>
+				<h5><%= extracirricular.Organization %></h5>
+				<h6>Years Involved: <%= extracirricular.YearsInvolved %></h6>
 				<div class="divider"></div>
-				<p>Description: <%= BetterLorem.p 2, true %></p>
+				<p>Description: <%= extracirricular.Description %></p>
 			</div>
 		</div>
-		<% if i % 2 != 0 || i == 4 %>
+		<% if i % 2 != 0 || i == data.extracirricular.Extracirriculars.length - 1 %>
 		</div>
 		<% end %>
 	<% end %>
@@ -25,19 +26,21 @@
 		<h3>Leadership</h3>
 	</div>
 
-	<% 2.times do |i| %>
+	<% data.extracirricular.Leadership.each_index do |i| %>
 		<% if i % 2 == 0 %>
 		<div class="row red lighten-1">
 		<% end %>
+		<% leadership = data.extracirricular.Leadership[i] %>
 		<div class="col m6 s12 ">
 			<div class="involvement-box">
-				<h5>Title <%= i %></h5>
-				<h6>Years Involved: 2</h6>
+				<h5><%= leadership.Position %></h5>
+				<h6>Organization: <%=  leadership.Organization %></h6>
+				<h6>Timeframe held: <%=  leadership.Timeframe %></h6>
 				<div class="divider"></div>
-				<p>Description: <%= BetterLorem.p 2, true %></p>
+				<p>Description: <%=  leadership.Description %></p>
 			</div>
 		</div>
-		<% if i % 2 != 0 %>
+		<% if i % 2 != 0 || i == data.extracirricular.Leadership.length - 1%>
 		</div>
 		<% end %>
 	<% end %>

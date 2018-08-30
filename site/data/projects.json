@@ -1,0 +1,35 @@
+{
+	"Projects": [
+		{
+			"Title": "VR Game Development",
+			"Date": "May 2017 - August 2017",
+			"Description": "During my sophomore year of undergrad, I enrolled in Ohio State’s Second-Year Transformational Program (STEP), which culminated in a fellowship funded signature project. After writing a project proposal and budget, I was able to build a VR ready PC and purchase an HTC Vive, which I used to make Virtual Reality video games. In about three months, I made two VR games with virtually no prior game development experience: a three point basketball shoot game and a procedurally generated wave shooter with an interesting teleportation mechanic. Since this was a project done over the summer while I was working full-time at one of my internships, I made an effort to set weekly development goals to stay motivated, while simultaneously working towards overarching game development milestones. Additionally, I made a website for my project and made blog posts every 8-10 days to explain what I had developed, and what bugs I had worked through. To see my entire development process documented, along with the games themselves, visit the link provided below.",
+			"LanguagesUtilized": "C#",
+			"TechnologiesUtilized": "Unity, SteamVR",
+			"Links": {
+				"Development Blog": "https://u.osu.edu/levinegamedevelopment/"
+			}
+		},
+		{
+			"Title": "Portfolio Website",
+			"Date": "May 2018 - August 2018",
+			"Description": "Since my resume is running out of space to document all my internships and extracurriculars, I wanted to make a Portfolio website to give more details and insight into my professional and personal development endeavors. As a result, I rapidly developed this website with the intention of quickly learning a new front-end CSS framework (MaterializeCSS), and also to get a better grasp about utilizing grid systems in web development in general. To simplify development, I also used Middleman and embedded ruby to generate a lot of repeated HTML code (for instance, all internships, projects, and extracurriculars entries on this site are generated from JSON files).",
+			"LanguagesUtilized": "HTML/CSS, SASS, JavaScript",
+			"TechnologiesUtilized": "jQuery, Git, GitKraken",
+			"Links": {
+				"Github": "https://github.com/levine1726/PortfolioWebsite"
+			}
+		},
+		{
+			"Title": "Warren County Proerty Search Freelance Project",
+			"Date": "July 2017",
+			"Description": "In the Summer of 2017, one of my friends approached me about taking on a small project for his current employer, CJS Heating and Air. Knowing that I was studying computer science at Ohio State, he inquired if I had the ability to filter and grab data from many webpages containing information about properties in Warren County, OH. Ultimately, he wanted to distribute marking information to properties with certain heating systems that his employer could service. Despite having only a little experience with HTML and no webscraping experience, I told him to contact me formally and to give me more details about what he was looking for. After clarifying expectations, spending time exploring the website I was to parse, and researching webscraping solutions, I created a software solution which would take a file of CSV values containing property information, request the actual webpage corresponding to that page using Selenium Webdriver, and would then check the type of heating system and age of the house/building on the property. If the property ending up meeting the client’s criteria, I would write the property and contact information to a CSV file. Upon finishing scraping, I was able to return the client an excel spreadsheet of over 13,500 addresses for them to market to.",
+			"LanguagesUtilized": "Java",
+			"TechnologiesUtilized": "Selenium Webdriver",
+			"Links": {
+				"Github": ""
+			}
+		}
+	]
+
+}

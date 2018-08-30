@@ -3,23 +3,24 @@
 		<h3>Internships:</h3>
 	</div>
 
-	<% 5.times do |i| %>
+	<% data.internships.Internships.each_index do |i| %>
 		<div class="row">
 			<% if i % 2 == 0%>
 				<div class="work-box col m10 s12 red lighten-1 left">
 			<% else %>
 				<div class="work-box col m10 s12 red lighten-1 right">
 			<% end %>
-			
+			<% internship = data.internships.Internships[i]%>
 				<div class="work-content">
-					<h5>Title <%= i %></h5>
+					<h5><%= internship.Title %></h5>
 					<div class="divider"></div>
-					<h6>Business/Organization: <%= BetterLorem.w 5, true %></h6>
-					<h6>Date: May 2018 - August 2018 </h6>		
+					<h6>Business/Organization: <%= internship.Business %></h6>
+					<h6>Date: <%= internship.Date %> </h6>		
 					<div class="divider"></div>
-					<p>Description: <%= BetterLorem.p 2, true %></p>
+					<p>Description: <%= internship.Description %></p>
 					<div class="divider"></div>
-					<p>Technologies Utilizied: <%= BetterLorem.w 12, true %></p>
+					<p>Languages Utilizied: <%= internship.LanguagesUtilized %></p>
+					<p>Technologies Utilizied: <%= internship.TechnologiesUtilized %></p>
 				</div>
 			</div>
 		</div>
