@@ -20,6 +20,7 @@
 					<div class="divider"></div>
 					<p>Languages Utilizied: <%= project.LanguagesUtilized %></p>
 					<p>Technologies Utilizied: <%= project.TechnologiesUtilized %></p>
+					<div class="divider"></div>
 					<% project.Links.each do |key, value|  %>
 						<p><%= key %>: <%= link_to value, value %></p>
 					<% end %>
