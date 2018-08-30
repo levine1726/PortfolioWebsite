@@ -3,22 +3,17 @@
 		{
 			"Organization": "Alpha Phi Omega",
 			"YearsInvolved": "3+ Years",
-			"Description": "APO is cool!"
+			"Description": "Alpha Phi Omega is a coed service fraternity that focuses heavily on three principles: service, fellowship, and leadership. Through this organization, I volunteer over 15 hours a semester while building friendships with a wide variety of other OSU students. In addition to volunteering, I also participate in fellowship events to better know my brothers, and attend leadership events which correspond to a variety of my interests."
 		},
 		{
 			"Organization": "Green Engineering Scholars",
-			"YearsInvolved": "3+ Years",
-			"Description": "Lots of service for the environment!"
+			"YearsInvolved": "2 Years",
+			"Description": "Green Engineering Scholars (GES) is an OSU scholar program that I completed during my freshman and sophomore year. During this time, I participated in educational, social, and community service events with other GES students. These events focused on environmental sustainability, building relationships with other students, and volunteering."
 		},
 		{
-			"Organization": "IEEE",
+			"Organization": "Upsilon Pi Epsilon",
 			"YearsInvolved": "1 Year",
-			"Description": "Just exploring Electrical Engineering!"
-		},
-		{
-			"Organization": "Green Engineering Scholars",
-			"YearsInvolved": "3+ Years",
-			"Description": "Lots of service for the environment!"
+			"Description": "Inducted into Upsilon Pi Epsilon, which is an international honor society dedicated to computing and information disciplines. Membership is only offered to those in the upper 35% of their class and those with a competitive GPA."
 		}
 	],
 	"Leadership": [
@@ -26,13 +21,13 @@
 			"Position": "Treasurer",
 			"Organization": "Upsilon Pi Epsilon",
 			"Timeframe": "Fall 2018 - Spring 2019",
-			"Description": "Do treasurer stuff."
+			"Description": "Responsible for collecting dues from newly inducted members, and writing a check to nationals for those members. Also assist with event planning with UPE President and Vice President."
 		},
 		{
 			"Position": "Family Head",
 			"Organization": "Alpha Phi Omega",
 			"Timeframe": "Fall 2017 Semester",
-			"Description": "Do treasurer stuff."
+			"Description": "As a family head, I was responsible for planning two monthly events for my fraternity family to help foster a stronger community. I also led a family chapter, where I presented general information from Eboard and lead the group through brainstorming and painting a family shield."
 		}
 	]
 }

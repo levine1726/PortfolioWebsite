@@ -17,7 +17,7 @@
 				<p>Description: <%= extracirricular.Description %></p>
 			</div>
 		</div>
-		<% if i % 2 != 0 || i == 4 %>
+		<% if i % 2 != 0 || i == data.extracirricular.Extracirriculars.length - 1 %>
 		</div>
 		<% end %>
 	<% end %>
@@ -40,7 +40,7 @@
 				<p>Description: <%=  leadership.Description %></p>
 			</div>
 		</div>
-		<% if i % 2 != 0 %>
+		<% if i % 2 != 0 || i == data.extracirricular.Leadership.length - 1%>
 		</div>
 		<% end %>
 	<% end %>
