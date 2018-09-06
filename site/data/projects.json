@@ -7,7 +7,8 @@
 			"LanguagesUtilized": "C#",
 			"TechnologiesUtilized": "Unity, SteamVR",
 			"Links": {
-				"Development Blog": "https://u.osu.edu/levinegamedevelopment/"
+				"Development Blog": "https://u.osu.edu/levinegamedevelopment/",
+				"Github" : "https://github.com/levine1726/VRGameDev"
 			}
 		},
 		{
@@ -27,7 +28,7 @@
 			"LanguagesUtilized": "Java",
 			"TechnologiesUtilized": "Selenium Webdriver",
 			"Links": {
-				"Github": ""
+				"Github": "https://github.com/levine1726/WarrenCountyWebscraper"
 			}
 		}
 	]
