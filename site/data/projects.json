@@ -22,7 +22,7 @@
 			}
 		},
 		{
-			"Title": "Warren County Proerty Search Freelance Project",
+			"Title": "Warren County Property Search Freelance Project",
 			"Date": "July 2017",
 			"Description": "In the Summer of 2017, one of my friends approached me about taking on a small project for his current employer, CJS Heating and Air. Knowing that I was studying computer science at Ohio State, he inquired if I had the ability to filter and grab data from many webpages containing information about properties in Warren County, OH. Ultimately, he wanted to distribute marking information to properties with certain heating systems that his employer could service. Despite having only a little experience with HTML and no webscraping experience, I told him to contact me formally and to give me more details about what he was looking for. After clarifying expectations, spending time exploring the website I was to parse, and researching webscraping solutions, I created a software solution which would take a file of CSV values containing property information, request the actual webpage corresponding to that page using Selenium Webdriver, and would then check the type of heating system and age of the house/building on the property. If the property ending up meeting the client’s criteria, I would write the property and contact information to a CSV file. Upon finishing scraping, I was able to return the client an excel spreadsheet of over 13,500 addresses for them to market to.",
 			"LanguagesUtilized": "Java",
