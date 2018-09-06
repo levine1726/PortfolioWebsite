@@ -9,7 +9,9 @@
     <title><%= current_page.data.title || "David Levine Portfolio" %></title>
     <%= stylesheet_link_tag "site", :relative => true %>
     <%= javascript_include_tag "site", :relative => true %>
-    <script src="http://malsup.github.io/jquery.form.js"></script> <!-- for submitting ajaxForms quickly -->
+    <%= javascript_include_tag "jquery.form", :relative => true %>
+    
+    <!-- for submitting ajaxForms quickly -->
   </head>
   <body class="black">
     <%= partial "navbar" %>
